@@ -59,3 +59,24 @@ responsible](https://github.com/timdp/metalsmith-discover-partials) for providin
 partials support is minimally documented `-_-`
 
 Not only that, but the permalinks syntax seems to have changed.
+
+
+Okay, after going through this... it seems that the ecosystem for this project
+may be dying? There was an issue opened on Metalsmith's repo that asked 
+point-blank if the project was maintained: https://github.com/segmentio/metalsmith/issues/329
+
+The answer was basically, "not really, but that's okay because the core is solid"
+
+Looking at the code, it seemed that they dropped work on the project back in
+2019. There is one issue open at the moment that shows someone pleading to become
+a maintainer of the project, but no one responding: https://github.com/segmentio/metalsmith/issues/335
+
+I don't doubt that the core is solid. It's simple and straightforward, but the
+fact that there is no apparent energy in the base gives me pause for the project.
+
+Even the person who wrote the tutorial I was following had abandoned the project
+(note that the description indicates that the repo is deprecated: https://github.com/parimalsatyal/neustadt.fr-metalsmith)
+
+
+
+le sigh.
