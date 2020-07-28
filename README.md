@@ -10,6 +10,8 @@ a different tutorial:
 
 <https://neustadt.fr/essays/crafting-a-simple-blog-with-metalsmith/>
 
+### Update 1
+
 One of the downfalls of following an old blog post is that there are conventions
 that have changed in the last few years. This time, I was getting a lot of
 problems around the templating engine because of the fact that they changed the
@@ -49,4 +51,11 @@ change `build.js` to this:
     }))
 ```
 
+### Update 2
 
+It turns out that with the new method of using templates, partials are not
+really possible for anything but handlebars syntax??? The [repository 
+responsible](https://github.com/timdp/metalsmith-discover-partials) for providing
+partials support is minimally documented `-_-`
+
+Not only that, but the permalinks syntax seems to have changed.

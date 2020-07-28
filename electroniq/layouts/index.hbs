@@ -1,13 +1,10 @@
 {{> header }}
-  <header>
-    <a class="back-to-index" href="../index.html">&larr; Index</a>
-  </header>
   <h1>{{ site.name }}</h1>
 
   <ul class="recent">
   {{#each articles }}
     <li>
-      <div class="title"><a href="{{ path }}">{{ title }}</a></div>
+      <div class="title"><a href="{{ path }}/index.html">{{ title }}</a></div>
       <div class="date">{{ date }}</div>
     </li>
   {{/each}}
