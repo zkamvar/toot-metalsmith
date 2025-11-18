@@ -14,7 +14,7 @@
     "metalsmith-permalinks": "^2.2.0",
     "metalsmith-serve": "0.0.7",
     "metalsmith-watch": "^1.0.3",
-    "qs": "^6.9.7"
+    "qs": "^6.10.3"
   },
   "main": "build.js",
   "scripts": {
